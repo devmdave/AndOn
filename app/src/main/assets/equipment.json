@@ -1,0 +1,2010 @@
+[
+ {
+  "id": "1",
+  "station": "MR10",
+  "equipment": "Drop Lifter WS\/MR10\/DL05",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "2",
+  "station": "MR20",
+  "equipment": "Robot Weld WS\/MR20\/IR01",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "3",
+  "station": "MR20",
+  "equipment": "Robot Weld WS\/MR20\/IR02",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "4",
+  "station": "MR20",
+  "equipment": "Robot Weld WS\/MR20\/IR03",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "5",
+  "station": "MR20",
+  "equipment": "Robot Weld WS\/MR20\/IR04",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "6",
+  "station": "MR30",
+  "equipment": "Robot Weld WS\/MR30\/IR05",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "7",
+  "station": "MR30",
+  "equipment": "Robot Weld WS\/MR30\/IR06",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "8",
+  "station": "MR30",
+  "equipment": "Robot Weld WS\/MR30\/IR07",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "9",
+  "station": "MR30",
+  "equipment": "Robot Weld WS\/MR30\/IR08",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "10",
+  "station": "MR40",
+  "equipment": "Robot Weld WS\/MR40\/IR09",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "11",
+  "station": "MR40",
+  "equipment": "Robot Weld WS\/MR40\/IR10",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "12",
+  "station": "MR40",
+  "equipment": "Robot Weld WS\/MR40\/IR11",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "13",
+  "station": "MR40",
+  "equipment": "Robot Weld WS\/MR40\/IR12",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "14",
+  "station": "MR40",
+  "equipment": "Robot Weld WS\/MR40\/IR13",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "15",
+  "station": "MR50",
+  "equipment": "Robot Weld WS\/MR50\/IR14",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "16",
+  "station": "MR50",
+  "equipment": "Robot Weld WS\/MR50\/IR15",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "17",
+  "station": "MR50",
+  "equipment": "Robot Weld WS\/MR50\/IR16",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "18",
+  "station": "MR60",
+  "equipment": "Robot Weld WS\/MR60\/IR17",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "19",
+  "station": "MR60",
+  "equipment": "Robot Weld WS\/MR60\/IR18",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "20",
+  "station": "MR60",
+  "equipment": "Robot Weld WS\/MR60\/IR19",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "21",
+  "station": "MR60",
+  "equipment": "Robot Weld WS\/MR60\/IR20",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "22",
+  "station": "MR70",
+  "equipment": "Robot Weld WS\/MR70\/IR21",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "23",
+  "station": "MR70",
+  "equipment": "Robot Weld WS\/MR70\/IR22",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "24",
+  "station": "MR70",
+  "equipment": "Robot Weld WS\/MR70\/IR30",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "25",
+  "station": "MR70",
+  "equipment": "Robot Weld WS\/MR70\/IR31",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "26",
+  "station": "MR70",
+  "equipment": "Main Control Panel WS\/MR70\/MR70MCP01",
+  "type": "Main Control Panel"
+ },
+ {
+  "id": "27",
+  "station": "MR70",
+  "equipment": "Shuttle Conveyor WS\/MR\/SHT01",
+  "type": "Shuttle "
+ },
+ {
+  "id": "28",
+  "station": "MR80",
+  "equipment": "Robot Weld WS\/MR80\/IR23",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "29",
+  "station": "MR80",
+  "equipment": "Robot Weld WS\/MR80\/IR24",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "30",
+  "station": "MR100",
+  "equipment": "Mig Welding m\/c WS\/MR100\/MIG01(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "31",
+  "station": "MR100",
+  "equipment": "Mig Welding m\/c WS\/MR100\/MIG02(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "32",
+  "station": "MR110",
+  "equipment": "Mig Welding m\/c WS\/MR110\/MIG03(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "33",
+  "station": "MR110",
+  "equipment": "Mig Welding m\/c WS\/MR110\/MIG04(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "34",
+  "station": "MR110",
+  "equipment": "VIN Punching m\/cWS\/MR110\/VIN(New)",
+  "type": "VIN Punching M\/C"
+ },
+ {
+  "id": "35",
+  "station": "MR120",
+  "equipment": "Mig Welding m\/c WS\/MR120\/MIG05(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "36",
+  "station": "MR120",
+  "equipment": "Mig Welding m\/c WS\/MR120\/MIG06(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "37",
+  "station": "MR130",
+  "equipment": "Drop Lifter WS\/MR130\/DL06",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "38",
+  "station": "MR140",
+  "equipment": "MR140 Conveyor WS\/MR140\/CV01",
+  "type": "conveyor"
+ },
+ {
+  "id": "39",
+  "station": "UBG05",
+  "equipment": "Fixture WS\/UBG05\/FIX01",
+  "type": "Takein Takeout station (Fixture)"
+ },
+ {
+  "id": "40",
+  "station": "UBG05",
+  "equipment": "Air Hoist WS\/UBG05\/HOIST1",
+  "type": "Air hoist "
+ },
+ {
+  "id": "41",
+  "station": "UBG05",
+  "equipment": "Fixture WS\/UBG01\/FIX01",
+  "type": "Loading station (Fixture)"
+ },
+ {
+  "id": "42",
+  "station": "UBG01",
+  "equipment": "Gripper Robot WS\/UBG05\/IR12",
+  "type": "ROBOT WITH GRIPPER IR12 "
+ },
+ {
+  "id": "43",
+  "station": "MR10",
+  "equipment": "Gripper Robot WS\/UBG10\/IR13",
+  "type": "ROBOT WITH GRIPPER IR13"
+ },
+ {
+  "id": "44",
+  "station": "MR10",
+  "equipment": "Sealer PumpWS\/UBG 10 RH \/Pump 01",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "45",
+  "station": "MR10",
+  "equipment": "Sealer PumpWS\/UBG 10 RH \/Pump 02",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "46",
+  "station": "MR10",
+  "equipment": "Sealer PumpWS\/UBG 10 LH\/Pump 03",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "47",
+  "station": "MR10",
+  "equipment": "Robot Gun Gripper with ATC WS\/UBG10\/IR14",
+  "type": "robot gun Gripper with ATC - 14 "
+ },
+ {
+  "id": "48",
+  "station": "MR10",
+  "equipment": "Robot Gun Gripper with ATC WS\/UBG10\/IR15",
+  "type": "robot gun Gripper with ATC - 15 "
+ },
+ {
+  "id": "49",
+  "station": "MR10",
+  "equipment": "MainControl Panel WS\/UBG10\/MCP UBG10",
+  "type": "Main control panel"
+ },
+ {
+  "id": "50",
+  "station": "MR10",
+  "equipment": "ServoControl Panel WS\/UBG10\/SCP UBG10",
+  "type": "Servo control panel"
+ },
+ {
+  "id": "51",
+  "station": "MR10",
+  "equipment": "Fixture WS\/UBG10\/FIX01",
+  "type": "Fixture"
+ },
+ {
+  "id": "52",
+  "station": "MR10",
+  "equipment": "Fixture WS\/UBG10\/FIX02",
+  "type": "Loading Fxiture RH "
+ },
+ {
+  "id": "53",
+  "station": "MR10",
+  "equipment": "Fixture WS\/UBG10\/FIX03",
+  "type": "Loading Fxiture LH "
+ },
+ {
+  "id": "54",
+  "station": "UBG20",
+  "equipment": "Robot Gun with Gripper  WS\/UBG20\/IR16",
+  "type": "ROBOT gun with Gripper IR 16 "
+ },
+ {
+  "id": "55",
+  "station": "UBG20",
+  "equipment": "Robot Gun with Gripper  WS\/UBG20\/IR17",
+  "type": "ROBOT gun with Gripper IR 17"
+ },
+ {
+  "id": "56",
+  "station": "UBG10",
+  "equipment": "Fixture WS\/UBG20\/FIX04",
+  "type": "Fixture"
+ },
+ {
+  "id": "57",
+  "station": "UBG10",
+  "equipment": "Fixture WS\/UBG20\/FIX05",
+  "type": "Loading Fxiture RH "
+ },
+ {
+  "id": "58",
+  "station": "UBG10",
+  "equipment": "Fixture WS\/UBG20\/FIX06",
+  "type": "Loading Fxiture LH "
+ },
+ {
+  "id": "59",
+  "station": "UBG30",
+  "equipment": "Mig Welding m\/c WS\/UBG30\/MIG01",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "60",
+  "station": "UBG40",
+  "equipment": "Robot Weld WS\/UBG40\/IR01",
+  "type": "Robot with gun dresser IR01"
+ },
+ {
+  "id": "61",
+  "station": "UBG40",
+  "equipment": "Robot Weld WS\/UBG40\/IR02",
+  "type": "Robot with gun dresser IR02"
+ },
+ {
+  "id": "62",
+  "station": "UBG40",
+  "equipment": "Gripper Robot WS\/UBG40\/IR03",
+  "type": "robot GripperIR  03"
+ },
+ {
+  "id": "63",
+  "station": "UBG50",
+  "equipment": "Robot Weld WS\/UBG50\/IR03",
+  "type": "Robot with gun dresser IR03"
+ },
+ {
+  "id": "64",
+  "station": "UBG50",
+  "equipment": "Robot Weld WS\/UBG50\/IR04",
+  "type": "Robot with gun dresser IR04"
+ },
+ {
+  "id": "65",
+  "station": "UBG50",
+  "equipment": "Shuttle Conveyor WS\/UBG50\/SHT01",
+  "type": "Shuttle "
+ },
+ {
+  "id": "66",
+  "station": "UBG60",
+  "equipment": "Robot Gun with Gripper  WS\/UBG60\/IR07",
+  "type": "Robot gun with Gripper IR 07 sealer gun "
+ },
+ {
+  "id": "67",
+  "station": "UBG60",
+  "equipment": "Robot Gun with Gripper  WS\/UBG60\/IR08",
+  "type": "Robot gun with Gripper IR 008 sealer gun "
+ },
+ {
+  "id": "68",
+  "station": "UBG60",
+  "equipment": "Sealer PumpWS\/UBG 60 RH \/Pump 01",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "69",
+  "station": "UBG60",
+  "equipment": "Sealer PumpWS\/UBG 60 RH \/Pump 02",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "70",
+  "station": "UBG60",
+  "equipment": "Sealer PumpWS\/UBG 60 LH\/Pump 03",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "71",
+  "station": "UBG60",
+  "equipment": "Fixture WS\/UBG60\/FIX07",
+  "type": "Fixture"
+ },
+ {
+  "id": "72",
+  "station": "UBG60",
+  "equipment": "Fixture WS\/UBG60\/FIX08",
+  "type": "Loading Fxiture RH "
+ },
+ {
+  "id": "73",
+  "station": "UBG60",
+  "equipment": "Fixture WS\/UBG60\/FIX09",
+  "type": "Loading Fxiture LH "
+ },
+ {
+  "id": "74",
+  "station": "UBG70",
+  "equipment": "IT Gun WS\/UBG70\/IT 01",
+  "type": "IT Gun"
+ },
+ {
+  "id": "75",
+  "station": "UBG70",
+  "equipment": "IT Gun WS\/UBG70\/IT 02",
+  "type": "IT Gun"
+ },
+ {
+  "id": "76",
+  "station": "UBG70",
+  "equipment": "Robot Weld WS\/UBG70\/IR10",
+  "type": "Robot gun with dresser IR10"
+ },
+ {
+  "id": "77",
+  "station": "UBG70",
+  "equipment": "Robot Weld WS\/UBG70\/IR11",
+  "type": "Robot gun with dresser IR11"
+ },
+ {
+  "id": "78",
+  "station": "UBG70",
+  "equipment": "Gripper Robot WS\/UBG70\/IR09",
+  "type": "Robot with gripper IR09"
+ },
+ {
+  "id": "79",
+  "station": "UBG70",
+  "equipment": "Fixture WS\/UBG70\/FIX10",
+  "type": "Fixture "
+ },
+ {
+  "id": "80",
+  "station": "UBG70",
+  "equipment": "Air Hoist WS\/UBG70\/HOIST2",
+  "type": "Air hoist "
+ },
+ {
+  "id": "81",
+  "station": "UBG80",
+  "equipment": "IT Gun WS\/UBG80\/IT 03",
+  "type": "IT Gun"
+ },
+ {
+  "id": "82",
+  "station": "UBG80",
+  "equipment": "IT Gun WS\/UBG80\/IT 04",
+  "type": "IT Gun"
+ },
+ {
+  "id": "83",
+  "station": "UBG80",
+  "equipment": "IT Gun WS\/UBG80\/IT 05",
+  "type": "IT Gun"
+ },
+ {
+  "id": "84",
+  "station": "UBG80",
+  "equipment": "IT Gun WS\/UBG80\/IT 06",
+  "type": "IT Gun"
+ },
+ {
+  "id": "85",
+  "station": "UBG80",
+  "equipment": "Mig Welding m\/c WS\/UBG80\/MIG01(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "86",
+  "station": "UBG80",
+  "equipment": "Mig Welding m\/c WS\/UBG80\/MIG02(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "87",
+  "station": "UBG80",
+  "equipment": "Sealer PumpWS\/UBG80\/Pump 01",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "88",
+  "station": "UBG80",
+  "equipment": "Fixture WS\/UBG80\/FIX11",
+  "type": "Fixture"
+ },
+ {
+  "id": "89",
+  "station": "UBG90",
+  "equipment": "Fixture WS\/UBG90\/FIX12",
+  "type": "Fixture"
+ },
+ {
+  "id": "90",
+  "station": "UBG100",
+  "equipment": "Gripper Robot WS\/UBG100\/IR05",
+  "type": "Robot Gripper IR  05"
+ },
+ {
+  "id": "91",
+  "station": "UBG100",
+  "equipment": "Drop Lifter With Telescopic WS\/UBG100\/DL10",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "92",
+  "station": "RFC10",
+  "equipment": "Sealer PumpWS\/RFC 10\/Pump 01",
+  "type": "Sealer system "
+ },
+ {
+  "id": "93",
+  "station": "RFC10",
+  "equipment": "Fixture WS\/RFC10\/FX-A",
+  "type": "Fixture A"
+ },
+ {
+  "id": "94",
+  "station": "RFC10",
+  "equipment": "Fixture WS\/RFC10\/FX-B",
+  "type": "Fixture B"
+ },
+ {
+  "id": "95",
+  "station": "RFC10",
+  "equipment": "Turn table WS\/RFC10\/TT01",
+  "type": "Turn table "
+ },
+ {
+  "id": "96",
+  "station": "RFC10",
+  "equipment": "Robot Weld WS\/RFC10\/IR01",
+  "type": "Robot with gun dresser IR01"
+ },
+ {
+  "id": "97",
+  "station": "RFC10",
+  "equipment": "Robot Weld WS\/RFC10\/IR01",
+  "type": "Robot with gun dresser IR01"
+ },
+ {
+  "id": "98",
+  "station": "RFC10",
+  "equipment": "ATC Robot with Gun and Gripper WS\/RFC10\/IR02",
+  "type": "Robto with gun ATC Gripper IR02"
+ },
+ {
+  "id": "99",
+  "station": "RFC10",
+  "equipment": "ATC Robot with Gun and Gripper WS\/RFC10\/IR02",
+  "type": "Robto with gun ATC Gripper IR02"
+ },
+ {
+  "id": "100",
+  "station": "RFC15",
+  "equipment": "Robot Weld WS\/RFC15\/IR19",
+  "type": "Robot with Weld Gun IR 19"
+ },
+ {
+  "id": "101",
+  "station": "RFC15",
+  "equipment": "Robot Weld WS\/RFC15\/IR19",
+  "type": "Robot with Weld Gun IR 19"
+ },
+ {
+  "id": "102",
+  "station": "RFC15",
+  "equipment": "Gripper Robot WS\/RFC15\/IR03",
+  "type": "Robot with Gripper IR03"
+ },
+ {
+  "id": "103",
+  "station": "RFC15",
+  "equipment": "Sealer System WS\/RFC15\/Pump01",
+  "type": "Sealer system "
+ },
+ {
+  "id": "104",
+  "station": "RFC15",
+  "equipment": "Sealer PumpWS\/RFC 15\/Pump 02",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "105",
+  "station": "RFC15",
+  "equipment": "Fixture WS\/RFC15\/FIX 01",
+  "type": "Fixture "
+ },
+ {
+  "id": "106",
+  "station": "RFC20",
+  "equipment": "Robot Weld WS\/RFC20\/IR04",
+  "type": "Robot with Weld Gun IR 04"
+ },
+ {
+  "id": "107",
+  "station": "RFC20",
+  "equipment": "Robot Weld WS\/RFC20\/IR04",
+  "type": "Robot with Weld Gun IR 04"
+ },
+ {
+  "id": "108",
+  "station": "RFC20",
+  "equipment": "Robot Weld WS\/RFC20\/IR05",
+  "type": "Robot with Weld Gun IR 05"
+ },
+ {
+  "id": "109",
+  "station": "RFC20",
+  "equipment": "Robot Weld WS\/RFC20\/IR05",
+  "type": "Robot with Weld Gun IR 05"
+ },
+ {
+  "id": "110",
+  "station": "RFC20",
+  "equipment": "Fixture WS\/RFC20\/FIX 02",
+  "type": "Fixture "
+ },
+ {
+  "id": "111",
+  "station": "RFC20",
+  "equipment": "Gripper Robot WS\/RFC20\/IR06",
+  "type": "Robot with Gripper IR06"
+ },
+ {
+  "id": "112",
+  "station": "RFC30",
+  "equipment": "Turn table WS\/RFC30\/TT02",
+  "type": "Turn table "
+ },
+ {
+  "id": "113",
+  "station": "RFC30",
+  "equipment": "Robot ATC with Weld Gun WS\/RFC30\/IR07",
+  "type": "Robot with Weld Gun with ATC IR 07"
+ },
+ {
+  "id": "114",
+  "station": "RFC30",
+  "equipment": "Robot ATC with Weld Gun WS\/RFC30\/IR07",
+  "type": "Robot with Weld Gun with ATC IR 07"
+ },
+ {
+  "id": "115",
+  "station": "RFC30",
+  "equipment": "Robot Weld WS\/RFC30\/IR08",
+  "type": "Robot with Weld Gun IR 08"
+ },
+ {
+  "id": "116",
+  "station": "RFC30",
+  "equipment": "Robot Weld WS\/RFC30\/IR08",
+  "type": "Robot with Weld Gun IR 08"
+ },
+ {
+  "id": "117",
+  "station": "RFC30",
+  "equipment": "Fixture WS\/RFC30\/FX-A",
+  "type": "Fixture A"
+ },
+ {
+  "id": "118",
+  "station": "RFC30",
+  "equipment": "Fixture WS\/RFC30\/FX-B",
+  "type": "Fixture B"
+ },
+ {
+  "id": "119",
+  "station": "RFC40",
+  "equipment": "Robot Gripper WS\/RFC40\/IR09",
+  "type": "Robot with Gripper\/ssw IR09"
+ },
+ {
+  "id": "120",
+  "station": "RFC40",
+  "equipment": "Robot Gripper WS\/RFC40\/IR09",
+  "type": "Robot with Gripper\/ssw IR09"
+ },
+ {
+  "id": "121",
+  "station": "RFC50",
+  "equipment": "Turn table WS\/RFC50\/TT03",
+  "type": "Turn table "
+ },
+ {
+  "id": "122",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/RFC50\/IR10",
+  "type": "Robot with Weld Gun IR 10"
+ },
+ {
+  "id": "123",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/RFC50\/IR10",
+  "type": "Robot with Weld Gun IR 10"
+ },
+ {
+  "id": "124",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/RFC50\/IR11",
+  "type": "Robot with Weld Gun IR 11"
+ },
+ {
+  "id": "125",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/RFC50\/IR11",
+  "type": "Robot with Weld Gun IR 11"
+ },
+ {
+  "id": "126",
+  "station": "RFC50",
+  "equipment": "Sealer PumpWS\/RFC 50\/Pump 01",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "127",
+  "station": "RFC55",
+  "equipment": "Sealer PumpWS\/RFC 55\/Pump 01",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "128",
+  "station": "RFC55",
+  "equipment": "Sealer PumpWS\/RFC 55\/Pump 02",
+  "type": "Sealer pump "
+ },
+ {
+  "id": "129",
+  "station": "RFC55",
+  "equipment": "Gripper Robot WS\/RFC55\/IR12",
+  "type": "Robot with Gripper IR12 "
+ },
+ {
+  "id": "130",
+  "station": "RFC20",
+  "equipment": "MainControl Panel WS\/RF20\/MCP20",
+  "type": "Main Control Panel "
+ },
+ {
+  "id": "131",
+  "station": "RFC60",
+  "equipment": "Fixture WS\/RFC60\/FX-01",
+  "type": "Fixture"
+ },
+ {
+  "id": "132",
+  "station": "RFC70",
+  "equipment": "Fixture WS\/RFC70\/FX-01",
+  "type": "Fixture"
+ },
+ {
+  "id": "133",
+  "station": "RFC75",
+  "equipment": "Fixture WS\/RFC75\/FIX-01",
+  "type": "Fixture"
+ },
+ {
+  "id": "134",
+  "station": "RFC60",
+  "equipment": "Robot Gun Gripper with ATC WS\/RFC60\/IR13",
+  "type": "Robot with gun gripper ATC IR 13"
+ },
+ {
+  "id": "135",
+  "station": "RFC60",
+  "equipment": "Robot Gun Gripper with ATC WS\/RFC60\/IR13",
+  "type": "Robot with gun gripper ATC IR 13"
+ },
+ {
+  "id": "136",
+  "station": "RFC60",
+  "equipment": "Robot Gun Gripper with ATC WS\/RFC60\/IR14",
+  "type": "robot with gun gripper ATC IR 14"
+ },
+ {
+  "id": "137",
+  "station": "RFC60",
+  "equipment": "Robot Gun Gripper with ATC WS\/RFC60\/IR14",
+  "type": "robot with gun gripper ATC IR 14"
+ },
+ {
+  "id": "138",
+  "station": "RFC70",
+  "equipment": "Robot Weld WS\/RFC70\/IR15",
+  "type": "Robot with gun dresser IR 15 "
+ },
+ {
+  "id": "139",
+  "station": "RFC70",
+  "equipment": "Robot Weld WS\/RFC70\/IR15",
+  "type": "Robot with gun dresser IR 15 "
+ },
+ {
+  "id": "140",
+  "station": "RFC70",
+  "equipment": "Robot Weld WS\/RFC70\/IR16",
+  "type": "Robot with gun dresser IR 16 "
+ },
+ {
+  "id": "141",
+  "station": "RFC70",
+  "equipment": "Robot Weld WS\/RFC70\/IR16",
+  "type": "Robot with gun dresser IR 16 "
+ },
+ {
+  "id": "142",
+  "station": "RFC70",
+  "equipment": "Gripper Robot WS\/RFC55\/IR17",
+  "type": "Gripper Robot  IR 17 "
+ },
+ {
+  "id": "143",
+  "station": "RFC80",
+  "equipment": "Fixture WS\/RFC80\/FIX-05",
+  "type": "Fixture"
+ },
+ {
+  "id": "144",
+  "station": "RFC80",
+  "equipment": "Robot Gun Gripper WS\/RFC80\/IR18",
+  "type": "Robot with Gripper IR 18 "
+ },
+ {
+  "id": "145",
+  "station": "RFC80",
+  "equipment": "Robot Gun Gripper WS\/RFC80\/IR18",
+  "type": "Robot with Gripper IR 18 "
+ },
+ {
+  "id": "146",
+  "station": "RFC80",
+  "equipment": "Fixture WS\/RFC80\/FIX-06",
+  "type": "Fixture"
+ },
+ {
+  "id": "147",
+  "station": "RFC80",
+  "equipment": "Air Hoist WS\/RFC80\/HOIST01",
+  "type": "Air Hoist"
+ },
+ {
+  "id": "148",
+  "station": "RFC85",
+  "equipment": "AccumulatorWS\/RFC85\/APCRF01",
+  "type": "Accumulator"
+ },
+ {
+  "id": "149",
+  "station": "FF10",
+  "equipment": "Air Hoist WS\/FF10\/HOIST01",
+  "type": "Air Hoist"
+ },
+ {
+  "id": "150",
+  "station": "FF10",
+  "equipment": "Sealer PumpWS\/FF10\/Pump 01",
+  "type": "Manual sealer Pump 01"
+ },
+ {
+  "id": "151",
+  "station": "FF10",
+  "equipment": "Turn table WS\/FF10\/TT01",
+  "type": "Turn table"
+ },
+ {
+  "id": "152",
+  "station": "FF10",
+  "equipment": "Robot Weld WS\/FF10\/IR01",
+  "type": "Robot (with Weld Gun) IR01"
+ },
+ {
+  "id": "153",
+  "station": "FF10",
+  "equipment": "Robot Weld WS\/FF10\/IR02",
+  "type": "Robot (with Weld Gun) IR02"
+ },
+ {
+  "id": "154",
+  "station": "FF10",
+  "equipment": "Gripper Robot WS\/FF10\/IR03",
+  "type": "Robot (SSW\/ Gripper) IR03"
+ },
+ {
+  "id": "155",
+  "station": "FF30",
+  "equipment": "Fixture WS\/FF30\/FIX-01",
+  "type": "Fixture"
+ },
+ {
+  "id": "156",
+  "station": "FF30",
+  "equipment": "MainControlPanelWS\/MCP\/FFN30",
+  "type": "Main Control Panel "
+ },
+ {
+  "id": "157",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/FF50\/IR01",
+  "type": "Robot (with Weld Gun) IR01"
+ },
+ {
+  "id": "158",
+  "station": "RFC50",
+  "equipment": "Gripper Robot WS\/FF50\/IR02",
+  "type": "Robot (SSW\/ Gripper)  IR02"
+ },
+ {
+  "id": "159",
+  "station": "RFC50",
+  "equipment": "Turn table WS\/FF50\/TT02",
+  "type": "Turn table"
+ },
+ {
+  "id": "160",
+  "station": "RFC50",
+  "equipment": "Robot Weld WS\/FF50\/IR03",
+  "type": "Robot (with Weld Gun) IR03"
+ },
+ {
+  "id": "161",
+  "station": "RFC50",
+  "equipment": "Gripper Robot WS\/FF50\/IR04",
+  "type": "Robot (SSW\/ Gripper)  IR04"
+ },
+ {
+  "id": "162",
+  "station": "FF70",
+  "equipment": "Fixture WS\/FFN70\/FIX-02",
+  "type": "Fixture"
+ },
+ {
+  "id": "163",
+  "station": "FF70",
+  "equipment": "Gripper Robot WS\/FFN70\/IR01",
+  "type": "Robot with Gripper  IR 01"
+ },
+ {
+  "id": "164",
+  "station": "FF130",
+  "equipment": "Fixture WS\/FFN130\/FIX-03",
+  "type": "Fixture"
+ },
+ {
+  "id": "165",
+  "station": "FF130",
+  "equipment": "Robot Weld WS\/FFN130\/IR01",
+  "type": "Robot Gun dresser IR 01"
+ },
+ {
+  "id": "166",
+  "station": "FF130",
+  "equipment": "Gripper Robot WS\/FFN130\/IR02",
+  "type": "robot with grepper IR02"
+ },
+ {
+  "id": "167",
+  "station": "FF140",
+  "equipment": "Fixture WS\/FFN140\/FIX-04",
+  "type": "Fixture  with vision system"
+ },
+ {
+  "id": "168",
+  "station": "FF70",
+  "equipment": "Air Hoist WS\/FF70\/HOIST02",
+  "type": "Air Hoist"
+ },
+ {
+  "id": "169",
+  "station": "FFF10",
+  "equipment": "Sealer PumpWS\/FFFN10\/Pump 01",
+  "type": "Manual Sealer pump "
+ },
+ {
+  "id": "170",
+  "station": "FFF10",
+  "equipment": "Turn table WS\/FFFN10\/TT01",
+  "type": "Turn table "
+ },
+ {
+  "id": "171",
+  "station": "FFF10",
+  "equipment": "Robot Weld WS\/FFFN10\/IR01",
+  "type": "Robot with gun dresser IR01"
+ },
+ {
+  "id": "172",
+  "station": "FFF10",
+  "equipment": "Robot Weld WS\/FFFN10\/IR02",
+  "type": "Robot with gun dresser IR02"
+ },
+ {
+  "id": "173",
+  "station": "FFF10",
+  "equipment": "Air Hoist WS\/FFFN10\/HOIST01",
+  "type": " Pnuematic Hoist "
+ },
+ {
+  "id": "174",
+  "station": "FFF20",
+  "equipment": "Gripper Robot WS\/FFFN20\/IR03",
+  "type": "Robot Gripper\/SSW (IR03)"
+ },
+ {
+  "id": "175",
+  "station": "FFF30",
+  "equipment": "Fixture WS\/FFFN30\/FIX-01",
+  "type": "Fixture"
+ },
+ {
+  "id": "176",
+  "station": "FFF30",
+  "equipment": "Sealer RobotWS\/FFFN30\/IR04",
+  "type": "Robot with sealer tool IR04"
+ },
+ {
+  "id": "177",
+  "station": "FFF30",
+  "equipment": "Sealer RobotWS\/FFFN30\/IR05",
+  "type": "Robot with sealer tool IR05"
+ },
+ {
+  "id": "178",
+  "station": "FFF30",
+  "equipment": "Sealer PumpWS\/FFFN30\/Pump 01",
+  "type": "Sealer Pump"
+ },
+ {
+  "id": "179",
+  "station": "FFF30",
+  "equipment": "Sealer PumpWS\/FFFN30\/Pump 02",
+  "type": "Sealer Pump"
+ },
+ {
+  "id": "180",
+  "station": "FFF40",
+  "equipment": "Fixture WS\/FFFN30\/FIX-02",
+  "type": "Fixture"
+ },
+ {
+  "id": "181",
+  "station": "FFF40",
+  "equipment": "Gripper Robot WS\/FFFN40\/IR07",
+  "type": "Robot with Gripper (IR7)"
+ },
+ {
+  "id": "182",
+  "station": "FFF40",
+  "equipment": "Gripper Robot WS\/FFFN40\/IR06",
+  "type": "Robot with Gun dresser (IR6)"
+ },
+ {
+  "id": "183",
+  "station": "FFF40",
+  "equipment": "Sealer PumpWS\/FFFN40\/Pump 01",
+  "type": "Sealer pump (20kg)"
+ },
+ {
+  "id": "184",
+  "station": "FFF40",
+  "equipment": "Air Hoist WS\/FFFN40\/HOIST02",
+  "type": "Hoist with tackle"
+ },
+ {
+  "id": "185",
+  "station": "FFF40",
+  "equipment": "MainControlPanelWS\/MCP\/FFFN40",
+  "type": "Main Control Panel "
+ },
+ {
+  "id": "186",
+  "station": "FFF50",
+  "equipment": "Turn table WS\/FFFN50\/TT02",
+  "type": "Turn table "
+ },
+ {
+  "id": "187",
+  "station": "FFF50",
+  "equipment": "Robot Weld WS\/FFFN50\/IR08",
+  "type": "Robot with gun dresser IR08"
+ },
+ {
+  "id": "188",
+  "station": "FFF50",
+  "equipment": "Robot Weld WS\/FFFN50\/IR09",
+  "type": "Robot with gun dresser IR09"
+ },
+ {
+  "id": "189",
+  "station": "FFF50",
+  "equipment": "Gripper Robot WS\/FFFN50\/IR10",
+  "type": "Robot with gun dresser IR10"
+ },
+ {
+  "id": "190",
+  "station": "FFF60",
+  "equipment": "Gripper Robot WS\/FFFN60\/IR11",
+  "type": "Robot Gripper\/SSW IR11"
+ },
+ {
+  "id": "191",
+  "station": "FFF70",
+  "equipment": "Fixture WS\/FFFN70\/FIX-03",
+  "type": "Fixture"
+ },
+ {
+  "id": "192",
+  "station": "FFF70",
+  "equipment": "Air Hoist WS\/FFFN70\/HOIST02",
+  "type": "Air hoist "
+ },
+ {
+  "id": "193",
+  "station": "FFF80",
+  "equipment": "AccumulatorWS\/FFFN70\/APCFFF01",
+  "type": "Accumulator"
+ },
+ {
+  "id": "194",
+  "station": "MF50",
+  "equipment": "Robot Weld WS\/MF50\/IR03",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "195",
+  "station": "MF50",
+  "equipment": "Robot Weld WS\/MF50\/IR05",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "196",
+  "station": "MF50",
+  "equipment": "Robot Weld WS\/MF50\/IR08",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "197",
+  "station": "MF50",
+  "equipment": "Robot Weld WS\/MF50\/IR10",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "198",
+  "station": "MF60",
+  "equipment": "Robot Weld WS\/MF60\/IR11",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "199",
+  "station": "MF60",
+  "equipment": "Robot Weld WS\/MF60\/IR12",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "200",
+  "station": "MF60",
+  "equipment": "Robot Weld WS\/MF60\/IR13",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "201",
+  "station": "MF60",
+  "equipment": "Robot Weld WS\/MF60\/IR14",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "202",
+  "station": "MF70",
+  "equipment": "Robot Weld WS\/MF70\/IR38",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "203",
+  "station": "MF70",
+  "equipment": "Robot Weld WS\/MF70\/IR37",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "204",
+  "station": "MF 80",
+  "equipment": "Robot Gripper WS\/MF80\/IR06",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "205",
+  "station": "MF 80",
+  "equipment": "Robot Gripper WS\/MF80\/IR07",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "206",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR41",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "207",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR45",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "208",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR43",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "209",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR40",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "210",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR44",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "211",
+  "station": "MF 110",
+  "equipment": "Robot Weld WS\/MF110\/IR42",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "212",
+  "station": "MF 120",
+  "equipment": "Robot Weld WS\/MF120\/IR15",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "213",
+  "station": "MF 120",
+  "equipment": "Robot Weld WS\/MF120\/IR16",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "214",
+  "station": "MF 125",
+  "equipment": "Robot Weld WS\/MF125\/IR99",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "215",
+  "station": "MF 130",
+  "equipment": "ATC Robot with Gun and Gripper WS\/MF130\/IR80",
+  "type": "ATC(Gripper+Weld)"
+ },
+ {
+  "id": "216",
+  "station": "MF 140",
+  "equipment": "Robot Weld WS\/MF140\/IR17",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "217",
+  "station": "MF 140",
+  "equipment": "Robot Weld WS\/MF140\/IR18",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "218",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR19",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "219",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR20",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "220",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR21",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "221",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR24",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "222",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR25",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "223",
+  "station": "MF 150",
+  "equipment": "Robot Weld WS\/MF150\/IR26",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "224",
+  "station": "MF 170",
+  "equipment": "Robot Weld WS\/MF170\/IR33",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "225",
+  "station": "MF 170",
+  "equipment": "Robot Weld WS\/MF170\/IR34",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "226",
+  "station": "MF160",
+  "equipment": "RobotWS\/MF160\/IR35",
+  "type": "Sealer Robot"
+ },
+ {
+  "id": "227",
+  "station": "MF160",
+  "equipment": "Sealer RobotWS\/MF160\/Sealer Pump01",
+  "type": "Sealer Robot"
+ },
+ {
+  "id": "228",
+  "station": "MF160",
+  "equipment": "Sealer RobotWS\/MF160\/Sealer Pump02",
+  "type": "Sealer Robot"
+ },
+ {
+  "id": "229",
+  "station": "MF160",
+  "equipment": "RobotWS\/MF170\/IR36",
+  "type": "Sealer Robot"
+ },
+ {
+  "id": "230",
+  "station": "MF 170",
+  "equipment": "ATC Robot with Gun and Gripper WS\/MF170\/IR46",
+  "type": "ATC(Gripper+Weld)"
+ },
+ {
+  "id": "231",
+  "station": "MF 190",
+  "equipment": "Robot Weld WS\/MF190\/IR27",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "232",
+  "station": "MF 190",
+  "equipment": "Robot Weld WS\/MF190\/IR28",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "233",
+  "station": "MF 190",
+  "equipment": "Robot Weld WS\/MF190\/IR30",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "234",
+  "station": "MF 190",
+  "equipment": "Robot Weld WS\/MF190\/IR31",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "235",
+  "station": "MF125",
+  "equipment": "FeederControlPanel WS\/MCP\/MF125",
+  "type": "FEEDER SYSTEM"
+ },
+ {
+  "id": "236",
+  "station": "MF10",
+  "equipment": "Drop Lifter WS\/MF10\/DL03",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "237",
+  "station": "MF200",
+  "equipment": "Drop Lifter WS\/MF200\/DL04",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "238",
+  "station": "UBC 40",
+  "equipment": "Robot Weld WS\/UBC40\/IR41",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "239",
+  "station": "UBC 40",
+  "type": "Weld Controller"
+ },
+ {
+  "id": "240",
+  "station": "UBC 40",
+  "equipment": "Robot Weld WS\/UBC40\/IR42",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "241",
+  "station": "UBC 40",
+  "type": "Weld Controller"
+ },
+ {
+  "id": "242",
+  "station": "UBC 50",
+  "equipment": "Robot Weld WS\/UBC50\/IR27",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "243",
+  "station": "UBC 50",
+  "equipment": "Robot Weld WS\/UBC50\/IR28",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "244",
+  "station": "UBC 50",
+  "equipment": "Robot Weld WS\/UBC50\/IR29",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "245",
+  "station": "UBC 50",
+  "equipment": "Robot Weld WS\/UBC50\/IR30",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "246",
+  "station": "UBC 60",
+  "equipment": "Robot Weld WS\/UBC60\/IR31",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "247",
+  "station": "UBC 60",
+  "equipment": "Robot Weld WS\/UBC60\/IR32",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "248",
+  "station": "UBC60",
+  "equipment": "Robot Weld WS\/UBC60\/IR34",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "249",
+  "station": "UBC 60",
+  "equipment": "Robot Weld WS\/UBC60\/IR33",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "250",
+  "station": "UBC 110",
+  "equipment": "Robot Weld WS\/UBC110\/IR43",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "251",
+  "station": "UBC 110",
+  "equipment": "Robot Weld WS\/UBC110\/IR45",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "252",
+  "station": "UBC 110",
+  "equipment": "Robot Weld WS\/UBC110\/IR44",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "253",
+  "station": "UBC 110",
+  "equipment": "Robot Weld WS\/UBC110\/IR46",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "254",
+  "station": "UBC 120",
+  "equipment": "Robot Weld WS\/UBC120\/IR19",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "255",
+  "station": "UBC 120",
+  "equipment": "Robot Weld WS\/UBC120\/IR20",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "256",
+  "station": "UBC 140",
+  "equipment": "Robot stud weld WS\/UBC140\/IR35",
+  "type": "Stud Robot"
+ },
+ {
+  "id": "257",
+  "station": "UBC 140",
+  "equipment": "Robot stud weld WS\/UBC140\/IR36",
+  "type": "Stud Robot"
+ },
+ {
+  "id": "258",
+  "station": "UBC 150",
+  "equipment": "Robot WeldWS\/UBC150\/IR38",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "259",
+  "station": "UBC 150",
+  "equipment": "Robot WeldWS\/UBC150\/IR18",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "260",
+  "station": "UBC 150",
+  "equipment": "Robot WeldWS\/UBC150\/IR37",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "261",
+  "station": "UBC 150",
+  "equipment": "Robot WeldWS\/UBC150\/IR17",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "262",
+  "station": "UBC 100",
+  "equipment": "Shuttle Conveyor WS\/UBC\/SHT01",
+  "type": "Shuttle 1"
+ },
+ {
+  "id": "263",
+  "station": "UBC 10",
+  "equipment": "Drop Lifter WS\/UBC10\/DL01",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "264",
+  "station": "UBC 100",
+  "equipment": "MainControlPanelWS\/MCP\/UBC100",
+  "type": "PLC PANEL"
+ },
+ {
+  "id": "265",
+  "station": "MF 170",
+  "equipment": "MainControlPanelWS\/MCP\/MFO170",
+  "type": "PLC PANEL"
+ },
+ {
+  "id": "266",
+  "station": "MF 170",
+  "equipment": "Shuttle Conveyor WS\/MFO\/SHT01",
+  "type": "Shuttle 1"
+ },
+ {
+  "id": "267",
+  "station": "UBC 180",
+  "equipment": "Drop Lifter WS\/UBC180\/DL02",
+  "type": "Drop Lift"
+ },
+ {
+  "id": "268",
+  "station": "BSLH 60",
+  "equipment": "Mig Welding m\/c WS\/BSLH60\/MIG01",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "269",
+  "station": "BSLH 40",
+  "equipment": "Mig Welding m\/c WS\/BSLH40\/MIG01",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "270",
+  "station": "BSRH 60",
+  "equipment": "Mig Welding m\/c WS\/BSRH60\/MIG01",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "271",
+  "station": "BSRH 40",
+  "equipment": "Mig Welding m\/c WS\/BSRH40\/MIG01",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "272",
+  "station": "UBC100",
+  "equipment": "Mig Welding m\/c WS\/UBC100\/MIG01(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "273",
+  "station": "UBC100",
+  "equipment": "Mig Welding m\/c WS\/UBC100\/MIG02(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "274",
+  "station": "UBC100",
+  "equipment": "Mig Welding m\/c WS\/UBC100\/MIG03(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "275",
+  "station": "UBC100",
+  "equipment": "Mig Welding m\/c WS\/UBC100\/MIG04(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "276",
+  "station": "UBC170",
+  "equipment": "Mig Welding m\/c WS\/UBC170\/MIG05(LH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "277",
+  "station": "UBC170",
+  "equipment": "Mig Welding m\/c WS\/UBC170\/MIG06(RH)",
+  "type": "MIG M\/C"
+ },
+ {
+  "id": "278",
+  "station": "BSRH 10",
+  "equipment": "Robot ATC with Weld GunWS\/BSRH10\/IR02",
+  "type": "ATC Robot"
+ },
+ {
+  "id": "279",
+  "station": "BSRH 10",
+  "equipment": "Robot WeldWS\/BSRH10\/IR01",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "280",
+  "station": "BSRH 15",
+  "equipment": "Robot SSW GripperWS\/BSRH15\/IR03",
+  "type": "Gripper Robot(SSW)"
+ },
+ {
+  "id": "281",
+  "station": "WS\/BSRH 20 IR 04",
+  "equipment": "Robot WeldWS\/BSRH20\/IR04",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "282",
+  "station": "WS\/BSRH 25 IR 05",
+  "equipment": "Robot GripperWS\/BSRH25\/IR05",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "283",
+  "station": "WS\/BSRH 30 IR 07",
+  "equipment": "Robot WeldWS\/BSRH30\/IR07",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "284",
+  "station": "WS\/BSRH 30 IR 06",
+  "equipment": "Robot WeldWS\/BSRH30\/IR06",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "285",
+  "station": "WS\/BSRH 35 IR 08",
+  "equipment": "Robot SSW GripperWS\/BSRH35\/IR08",
+  "type": "Gripper Robot(SSW)"
+ },
+ {
+  "id": "286",
+  "station": "WS\/BSRH 70 IR 11",
+  "equipment": "Robot WeldWS\/BSRH70\/IR11",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "287",
+  "station": "WS\/BSRH 70 IR 12",
+  "equipment": "Robot WeldWS\/BSRH70\/IR12",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "288",
+  "station": "WS\/BSRH 70 IR 10",
+  "equipment": "Robot WeldWS\/BSRH70\/IR10",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "289",
+  "station": "BSRH 75",
+  "equipment": "Robot GripperWS\/BSRH75\/IR13",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "290",
+  "station": "BSRH 45",
+  "equipment": "Robot GripperWS\/BSRH45\/IR14",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "291",
+  "station": "BSRH 55",
+  "equipment": "Robot GripperWS\/BSRH55\/IR15",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "292",
+  "station": "BSRH 65",
+  "equipment": "Robot GripperWS\/BSRH65\/IR16",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "293",
+  "station": "WS\/BSLH 10 IR 02",
+  "equipment": "Robot ATC with Weld Gun WS\/BSLH10\/IR02",
+  "type": "ATC Robot"
+ },
+ {
+  "id": "294",
+  "station": "WS\/BSLH 10 IR 01",
+  "equipment": "Robot WeldWS\/BSLH10\/IR01",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "295",
+  "station": "WS\/BSLH 15 IR 03",
+  "equipment": "Robot SSW GripperWS\/BSLH15\/IR03",
+  "type": "Gripper Robot(SSW)"
+ },
+ {
+  "id": "296",
+  "station": "WS\/BSLH 20 IR 04",
+  "equipment": "Robot WeldWS\/BSLH20\/IR04",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "297",
+  "station": "WS\/BSLH 25 IR 05",
+  "equipment": "Robot GripperWS\/BSRLH25\/IR05",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "298",
+  "station": "WS\/BSLH 30 IR 07",
+  "equipment": "Robot WeldWS\/BSLH30\/IR07",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "299",
+  "station": "WS\/BSLH 30 IR 06",
+  "equipment": "Robot WeldWS\/BSLH30\/IR06",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "300",
+  "station": "WS\/BSLH 35 IR 08",
+  "equipment": "Robot SSW GripperWS\/BSLH35\/IR08",
+  "type": "Gripper Robot(SSW+Slider)"
+ },
+ {
+  "id": "301",
+  "station": "WS\/BSLH 50 IR 09",
+  "equipment": "ATC Robot with Gun and GripperWS\/BSLH50\/IR09",
+  "type": "ATC(AttachGripper+Weld)"
+ },
+ {
+  "id": "302",
+  "station": "WS\/BSLH 70 IR 11",
+  "equipment": "Robot WeldWS\/BSLH70\/IR11",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "303",
+  "station": "WS\/BSLH 70 IR 12",
+  "equipment": "Robot WeldWS\/BSLH70\/IR12",
+  "type": "Weld Robot"
+ },
+ {
+  "id": "304",
+  "station": "WS\/BSLH 75 IR 13",
+  "equipment": "Robot GripperWS\/BSLH75\/IR13",
+  "type": "Gripper Robot(S.S)"
+ },
+ {
+  "id": "305",
+  "station": "BSLH 65",
+  "equipment": "Robot GripperWS\/BSLH65\/IR16",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "306",
+  "station": "BSLH 65",
+  "equipment": "Robot GripperWS\/BSLH45\/IR14",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "307",
+  "station": "BSLH 65",
+  "equipment": "Robot GripperWS\/BSLH55\/IR15",
+  "type": "Gripper Robot"
+ },
+ {
+  "id": "308",
+  "station": "BSLH 25",
+  "equipment": "Sealer PumpWS\/BSNLH25\/Pump 01",
+  "type": "Sealer pump 1"
+ },
+ {
+  "id": "309",
+  "station": "BSLH25",
+  "equipment": "Sealer PumpWS\/BSNLH25\/Pump 02",
+  "type": "Sealer pump 2"
+ },
+ {
+  "id": "310",
+  "station": "BSLH 75",
+  "equipment": "Sealer PumpWS\/BSNLH75\/Pump 03",
+  "type": "Sealer pump 3"
+ },
+ {
+  "id": "311",
+  "station": "BSLH 75",
+  "equipment": "Sealer PumpWS\/BSNLH75\/Pump 04",
+  "type": "Sealer pump 4"
+ },
+ {
+  "id": "312",
+  "station": "BSLH 10",
+  "equipment": "Sealer PumpWS\/BSNLH10\/Pump 05",
+  "type": "Sealer pump 5"
+ },
+ {
+  "id": "313",
+  "station": "GEO Conveyor",
+  "equipment": "Geo Conveyor WS\/GEO STORAGE-1\/CV01",
+  "type": "GEO Storage 1"
+ },
+ {
+  "id": "314",
+  "station": "MFI",
+  "equipment": "Shuttle Conveyor WS\/MFI\/SHT01",
+  "type": "SHUTTLE"
+ },
+ {
+  "id": "315",
+  "station": "BSRH 10",
+  "equipment": "MainControlPanelWS\/MCP\/BSRH10",
+  "type": "PLC Control Panel New"
+ },
+ {
+  "id": "316",
+  "station": "BSRH 70",
+  "equipment": "MainControlPanelWS\/MCP\/BSRH70",
+  "type": "PLC Control Panel Old"
+ },
+ {
+  "id": "317",
+  "station": "BSNRH 120",
+  "equipment": "Lift & Carry Convayor\n WS\/BSNRH120\/LCC01",
+  "type": "Lift and Carry Shuttle"
+ },
+ {
+  "id": "318",
+  "station": "BSNRH 70",
+  "equipment": "APC Convayor\n WS\/BSNRH120\/APC01",
+  "type": "APC Conveyor"
+ },
+ {
+  "id": "319",
+  "station": "BSRH 25",
+  "equipment": "Sealer PumpWS\/BSNRH25\/Pump 01",
+  "type": "Sealer pump 1"
+ },
+ {
+  "id": "320",
+  "station": "BSRH 25",
+  "equipment": "Sealer PumpWS\/BSNRH25\/Pump 02",
+  "type": "Sealer pump 2"
+ },
+ {
+  "id": "321",
+  "station": "BSRH 75",
+  "equipment": "Sealer PumpWS\/BSNRH75\/Pump 03",
+  "type": "Sealer pump 3"
+ },
+ {
+  "id": "322",
+  "station": "BSRH 75",
+  "equipment": "Sealer PumpWS\/BSNRH75\/Pump 04",
+  "type": "Sealer pump 4"
+ },
+ {
+  "id": "323",
+  "station": "BSRH 10",
+  "equipment": "Sealer PumpWS\/BSNRH10\/Pump 05",
+  "type": "Sealer pump 5"
+ },
+ {
+  "id": "324",
+  "station": "BSNLH 10",
+  "equipment": "MainControlPanelWS\/MCP\/BSLH10",
+  "type": "PLC Control Panel New"
+ },
+ {
+  "id": "325",
+  "station": "BSNLH 70",
+  "equipment": "MainControlPanelWS\/MCP\/BSLH70",
+  "type": "PLC Control Panel Old"
+ },
+ {
+  "id": "326",
+  "station": "BSNLH 120",
+  "equipment": "Lift & Carry Convayor\n WS\/BSNLH120\/LCC01",
+  "type": "Lift and Carry Shuttle"
+ },
+ {
+  "id": "327",
+  "station": "BSNLH 70",
+  "equipment": "APC Convayor\n WS\/BSNLH120\/APC01",
+  "type": "APC Conveyor"
+ },
+ {
+  "id": "328",
+  "station": "UBC 90",
+  "equipment": "IT Gun WS\/UBC90\/IT 01(LH-1)",
+  "type": "IT Gun"
+ },
+ {
+  "id": "329",
+  "station": "UBC 90",
+  "equipment": "IT Gun WS\/UBC90\/IT 02(RH-2)",
+  "type": "IT Gun"
+ },
+ {
+  "id": "330",
+  "station": "UBC 90",
+  "equipment": "IT Gun WS\/UBC90\/IT 03(LH-1)",
+  "type": "IT Gun"
+ },
+ {
+  "id": "331",
+  "station": "UBC 90",
+  "equipment": "IT Gun WS\/UBC90\/IT 04(RH-2)",
+  "type": "IT Gun"
+ },
+ {
+  "id": "332",
+  "station": "MF110",
+  "equipment": "Fixture WS\/MF110\/FX10(LH)",
+  "type": "LH FIXTURE"
+ },
+ {
+  "id": "333",
+  "station": "MF110",
+  "equipment": "Fixture WS\/MF110\/FX11(RH)",
+  "type": "RH FIXTURE"
+ },
+ {
+  "id": "334",
+  "station": "MFO",
+  "equipment": "Shuttle Conveyor WS\/MFO\/SHT02",
+  "type": "SHUTTLE"
+ },
+ {
+  "id": "335",
+  "station": "MFO",
+  "equipment": "Main Control Panel WS\/MF110\/MF110MCP",
+  "type": "SHUTTLE"
+ }
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:elevation="20dp"
+    android:background="@color/purple">
+
+    <TextView
+        android:id="@+id/navbar_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELDSHOP"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/navbar_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="25dp"
+        android:letterSpacing="0.1"
+        android:textSize="25sp"
+        android:textAlignment="textStart"
+        android:paddingStart="20dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/navbar_empid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee ID"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

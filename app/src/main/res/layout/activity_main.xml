@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:elevation="20dp"
+    tools:visibility="visible">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/maintoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/purple"
+            android:minHeight="80dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@android:drawable/alert_light_frame" />
+
+        <Button
+            android:id="@+id/btn_FFN"
+            style="@style/button_station"
+            android:text="FFN Line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_GEO3"
+            app:layout_constraintEnd_toStartOf="@+id/btn_FFFN"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maintoolbar" />
+
+        <Button
+            android:id="@+id/btn_FFFN"
+            android:text="FFFN Line"
+            style="@style/button_station"
+            app:layout_constraintBottom_toTopOf="@+id/btn_UBC"
+            app:layout_constraintEnd_toStartOf="@+id/btn_RFC"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_FFN"
+            app:layout_constraintTop_toBottomOf="@+id/maintoolbar" />
+
+        <Button
+            android:id="@+id/btn_RFC"
+            style="@style/button_station"
+            android:text="RFC Line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_GEO1"
+            app:layout_constraintEnd_toStartOf="@+id/btn_UBG"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_FFFN"
+            app:layout_constraintTop_toBottomOf="@+id/maintoolbar" />
+
+        <Button
+            android:id="@+id/btn_UBG"
+            style="@style/button_station"
+            android:text="UBG"
+            app:layout_constraintBottom_toTopOf="@+id/btn_MFI"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_RFC"
+            app:layout_constraintTop_toBottomOf="@+id/maintoolbar" />
+
+        <Button
+            android:id="@+id/btn_GEO3"
+            style="@style/button_station"
+            android:text="GEO#3 CV"
+            app:layout_constraintBottom_toTopOf="@+id/btn_MFO"
+            app:layout_constraintEnd_toStartOf="@+id/btn_UBC"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_FFN" />
+
+        <Button
+            style="@style/button_station"
+            android:id="@+id/btn_UBC"
+            android:text="UBC Line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_GEO2"
+            app:layout_constraintEnd_toStartOf="@+id/btn_GEO1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_GEO3"
+            app:layout_constraintTop_toBottomOf="@+id/btn_FFFN" />
+
+        <Button
+            android:id="@+id/btn_GEO1"
+            style="@style/button_station"
+            android:text="GEO#1 CV"
+            app:layout_constraintBottom_toTopOf="@+id/btn_MR"
+            app:layout_constraintEnd_toStartOf="@+id/btn_MFI"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_UBC"
+            app:layout_constraintTop_toBottomOf="@+id/btn_RFC" />
+
+        <Button
+            android:id="@+id/btn_MFI"
+            style="@style/button_station"
+            android:text="MFI Line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_SRL1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_GEO1"
+            app:layout_constraintTop_toBottomOf="@+id/btn_UBG" />
+
+        <Button
+            android:id="@+id/btn_MFO"
+            android:text="MFO Line"
+            style="@style/button_station"
+            app:layout_constraintBottom_toTopOf="@+id/btn_SRL2"
+            app:layout_constraintEnd_toStartOf="@+id/btn_GEO2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_GEO3" />
+
+        <Button
+            android:id="@+id/btn_GEO2"
+            style="@style/button_station"
+            android:text="GEO#2 CV"
+            app:layout_constraintBottom_toTopOf="@+id/btn_BC"
+            app:layout_constraintEnd_toStartOf="@+id/btn_MR"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_MFO"
+            app:layout_constraintTop_toBottomOf="@+id/btn_UBC" />
+
+        <Button
+            android:id="@+id/btn_MR"
+            style="@style/button_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR Line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_RH"
+            app:layout_constraintEnd_toStartOf="@+id/btn_SRL1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_GEO2"
+            app:layout_constraintTop_toBottomOf="@+id/btn_GEO1" />
+
+        <Button
+            android:id="@+id/btn_SRL1"
+            android:text="SRL1 CV"
+            style="@style/button_station"
+            app:layout_constraintBottom_toTopOf="@+id/btn_LH"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_MR"
+            app:layout_constraintTop_toBottomOf="@+id/btn_MFI" />
+
+        <Button
+            android:id="@+id/btn_SRL2"
+            style="@style/button_station"
+            android:text="SRL2 CV"
+            app:layout_constraintBottom_toTopOf="@+id/btn_HDTG"
+            app:layout_constraintEnd_toStartOf="@+id/btn_BC"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_MFO" />
+
+        <Button
+            android:id="@+id/btn_BC"
+            android:text="BC Line"
+            style="@style/button_station"
+            app:layout_constraintBottom_toTopOf="@+id/btn_MCE"
+            app:layout_constraintEnd_toStartOf="@+id/btn_RH"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_SRL2"
+            app:layout_constraintTop_toBottomOf="@+id/btn_GEO2" />
+
+        <Button
+            android:id="@+id/btn_RH"
+            style="@style/button_station"
+            android:text="RH Door"
+            app:layout_constraintBottom_toTopOf="@+id/btn_BSRH"
+            app:layout_constraintEnd_toStartOf="@+id/btn_LH"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_BC"
+            app:layout_constraintTop_toBottomOf="@+id/btn_MR" />
+
+        <Button
+            android:id="@+id/btn_LH"
+            style="@style/button_station"
+            android:text="LH Door"
+            app:layout_constraintBottom_toTopOf="@+id/btn_BSLH"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_RH"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SRL1" />
+
+        <Button
+            android:id="@+id/btn_HDTG"
+            android:text="HDTG "
+            style="@style/button_station"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_MCE"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SRL2" />
+
+        <Button
+            android:id="@+id/btn_MCE"
+            style="@style/button_station"
+            android:text="MCE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_BSRH"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_HDTG"
+            app:layout_constraintTop_toBottomOf="@+id/btn_BC" />
+
+        <Button
+            android:id="@+id/btn_BSRH"
+            android:text="BSRH"
+            style="@style/button_station"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_BSLH"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_MCE"
+            app:layout_constraintTop_toBottomOf="@+id/btn_RH" />
+
+        <Button
+            android:id="@+id/btn_BSLH"
+            style="@style/button_station"
+            android:text="BSLH"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_BSRH"
+            app:layout_constraintTop_toBottomOf="@+id/btn_LH" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        app:headerLayout="@layout/header"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/main_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

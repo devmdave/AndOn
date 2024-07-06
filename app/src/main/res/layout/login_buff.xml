@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="70dp">
+
+
+    <TextView
+        android:id="@+id/login_bufftxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:text="Authenticating...."
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/login_buffgif"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/login_buffgif"
+        android:layout_width="108dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:src="@drawable/auth"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>

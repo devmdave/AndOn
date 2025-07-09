@@ -88,41 +88,18 @@ public class Equipments extends LocalDB.Station {
             Toast.makeText(context, arr.toString(), Toast.LENGTH_SHORT).show();
         }
         catch(Exception ignored){}
-
-
         return arr;
 
     }
     public boolean isEquipmentAlert(Integer id)
     {
-        boolean is_alert = false;
         ArrayList<Integer> arr = this.getAlerts();
-//        Toast.makeText(con,arr.toString(),Toast.LENGTH_LONG).show();
-        for (int j =0; j < arr.size();j++)
-        {
-            if(arr.get(j) == id)
-            {
-                is_alert = true;
-
-            }
-        }
-        return is_alert;
+        return arr.contains(id);
     }
     public boolean isEquipmentAck(Integer id)
      {
-        boolean is_ack = false;
         ArrayList<Integer> arr = this.getAcks();
-
-        for(int k=0;k<arr.size();k++)
-        {
-            if(arr.get(k) == id)
-            {
-                is_ack = true;
-            }
-
-        }
-        return is_ack;
-
+        return arr.contains(id);
     }
 
     public void addAlertEquipmentInLocalStorage(Context con,int eqid) {

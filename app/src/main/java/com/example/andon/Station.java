@@ -112,12 +112,9 @@ public class Station  {
                 try {
                     @SuppressLint("DiscouragedApi") int resID = con.getResources().getIdentifier((st_alerts.getJSONArray(i).getString(1)), "id", con.getPackageName());
                     Button button = ((Button) view.findViewById(resID));
-                    ObjectAnimator animator = ObjectAnimator.ofInt(button, "backgroundColor", Color.RED, Color.GREEN);
-                    animator.setDuration(500);
-                    animator.setEvaluator(new ArgbEvaluator());
-                    animator.setRepeatCount(Animation.REVERSE);
-                    animator.setRepeatCount(Animation.INFINITE);
-                    animator.start();
+                    button.setBackgroundResource(R.drawable.animations);
+                    an=(AnimationDrawable) button.getBackground();
+                    an.start();
                 } catch (Exception e) {
                     Log.e("Station",e.toString());
                 }
@@ -139,7 +136,7 @@ public class Station  {
                     {
                         @SuppressLint("DiscouragedApi") int resID = con.getResources().getIdentifier((st_ack.getJSONArray(i).getString(1)), "id", con.getPackageName());
                         Button button = ((Button) view.findViewById(resID));
-                        button.setBackgroundColor(Color.RED);
+                        button.setBackgroundResource(R.drawable.btnstation_red);
                     }
                 } catch (Exception e) {
                     Log.e("Station",e.toString());

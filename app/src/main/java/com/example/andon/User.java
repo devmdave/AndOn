@@ -25,7 +25,7 @@ public class User extends LocalDB{
     public void authenticate(Context con,String username, String password, Thread t)
     {
         RequestQueue queue;
-        String URL = "https://script.google.com/macros/s/AKfycbwWPNAk3Vnq97hFbV3YNFXewr2Kh-DrurzqyAgRoeKtEsYU3CEA2-m1Moyw_STeQQiY/exec?action=AUTH&username="+username.trim()
+        String URL = "https://script.google.com/macros/s/AKfycbyGt8grQqsnD9DFgAF2JQYOHVWbb-CSFlp1byzgg_sGvMYn1SrGIBUIo221bSbJQzo/exec?action=AUTH&username="+username.trim()
         +"&pass="+password.trim();
         queue = Volley.newRequestQueue(con);
         StringRequest request = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
@@ -48,11 +48,12 @@ public class User extends LocalDB{
         });
         queue.add(request);
     }
-    public void saveLogin(Context con,String name,String surname)
+    public void saveLogin(Context con,String name,String surname,String userid)
     {
         SharedPreferences pref = con.getSharedPreferences("AndonLocalDB", 0); // 0 - for private mode
         SharedPreferences.Editor editor = pref.edit();
         editor.putString("username",name);
+        editor.putString("employeeid",userid);
         editor.putString("usersurname",surname);
         editor.apply();
     }
@@ -63,4 +64,10 @@ public class User extends LocalDB{
         String surname = pref.getString("usersurname",null);
         return (name+surname);
     }
+    public String getUserID(Context con)
+    {
+        SharedPreferences pref = con.getSharedPreferences("AndonLocalDB", 0); // 0 - for private mode
+        return pref.getString("employeeid",null);
+    }
+
 }

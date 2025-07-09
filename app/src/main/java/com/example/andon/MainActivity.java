@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -16,9 +17,12 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.example.andon.MyAPI;
 
@@ -48,11 +52,14 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
     public static Station st;
@@ -70,16 +77,37 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+//        Snackbar snackbar = Snackbar.make(findViewById(R.id.main),"Welcome to WeldShop!!",Snackbar.LENGTH_LONG);
+//        snackbar.show();
 
+        if (Build.VERSION.SDK_INT >= 21) {
+            Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.getResources().getColor(color.purple));
+        }
+        User usr = new User();
+//        View nav_header = getLayoutInflater().inflate(layout.header,null);
+//        TextView navbar_username = nav_header.findViewById(id.navbar_username);
+//        TextView navbar_empid = nav_header.findViewById(id.navbar_empid);
+
+        // Toolbar and drawer configurations...
         Toolbar tb = findViewById(id.maintoolbar);
         setSupportActionBar(tb);
-        getSupportActionBar().setTitle("WeldShop");
+        getSupportActionBar().setSubtitle("H O M E");
         drawerLayout = (DrawerLayout) findViewById(id.drawerLayout);
+        drawerLayout.setDrawerElevation(1);
         actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout, string.open, string.close);
         actionBarDrawerToggle.setDrawerSlideAnimationEnabled(true);
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
+        NavigationView nav_view = findViewById(id.nav_veiw);
+        View header = nav_view.getHeaderView(0);
+        TextView emp_id = (TextView) header.findViewById(id.navbar_empid);
+        TextView emp_name = (TextView) header.findViewById(id.navbar_username);
+        emp_name.setText(usr.getUserName(this));
+        emp_id.setText(usr.getUserID(this));
 //        getSupportActionBar().setHomeAsUpIndicator(drawable.menu);
         Button btn_BC = (Button)findViewById(R.id.btn_BC);
         Button btn_BSLH = (Button)findViewById(R.id.btn_BSLH);
@@ -267,7 +295,6 @@ public class MainActivity extends AppCompatActivity {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {

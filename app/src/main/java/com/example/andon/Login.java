@@ -71,7 +71,8 @@ public class Login extends AppCompatActivity {
                                     if(u.user.get(0).toString() == "true")
                                     {
                                         dialog.dismiss();
-                                        u.saveLogin(getApplicationContext(),u.user.getString(1),u.user.getString(2));
+                                        u.saveLogin(getApplicationContext(),u.user.getString(1),u.user.getString(2),txt_username.getText().toString());
+
                                         Intent i = new Intent(getApplicationContext(),MainActivity.class);
                                         startActivity(i);
                                     }

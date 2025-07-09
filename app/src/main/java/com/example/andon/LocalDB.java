@@ -48,11 +48,8 @@ public class LocalDB {
                 {
                     alert_equipments.add(station_alerts.getJSONArray(i).getInt(this.INDEX_EQID));
                 }
-            } catch (Exception ignored) {
-
-            }
+            } catch (Exception ignored) {}
             return alert_equipments;
-
         }
         public ArrayList<Integer> getAcks()
         {

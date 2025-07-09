@@ -26,80 +26,112 @@
         <activity
             android:name=".Login"
             android:exported="true">
-
              <intent-filter>
-             <action android:name="android.intent.action.MAIN" />
-             <category android:name="android.intent.category.LAUNCHER" />
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
              </intent-filter>
         </activity>
         <activity
             android:name=".activity_FFFN"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_FFN"
+            android:theme="@style/AppTheme"
             android:exported="false" />
         <activity
             android:name=".activity_RFC"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_BSLH"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_BSRH"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_MCE"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_HDTG"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_srl2"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_srl1"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
+            android:theme="@style/AppTheme"
             android:name=".activity_bc"
+
             android:exported="false" />
         <activity
             android:name=".activity_mr"
+            android:theme="@style/AppTheme"
             android:exported="false" />
         <activity
             android:name=".activity_lh"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_rh"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_mfo"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_mfi"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_geo1"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_geo2"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_ubc"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_ubg"
+            android:theme="@style/AppTheme"
+
             android:exported="false" />
         <activity
             android:name=".activity_geo3"
             android:exported="false"
-            android:theme="@style/Theme.AndOn" />
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+
         </activity>
     </application>
 

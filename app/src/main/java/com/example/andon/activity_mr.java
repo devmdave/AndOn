@@ -47,6 +47,11 @@ public class activity_mr extends AppCompatActivity implements View.OnClickListen
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
+
+
+
         Station st = new Station();
         LocalDbSt.initialiseLocalDB(getApplicationContext());
         try {
@@ -87,11 +92,11 @@ public class activity_mr extends AppCompatActivity implements View.OnClickListen
                         boolean is_ack = eq.isEquipmentAck(eqid);
                         if(is_alert)
                         {
-                            row.setBackgroundResource(R.drawable.btnstation_red);
+                            row.setBackgroundColor(Color.RED);
                         }
                         else if(is_ack)
                         {
-                            row.setBackgroundResource(R.drawable.btn_yellow);
+                            row.setBackgroundColor(Color.YELLOW);
                         }
                     } catch (Exception ignored) {}
                     return row;
@@ -133,19 +138,16 @@ public class activity_mr extends AppCompatActivity implements View.OnClickListen
                                     view.setBackgroundColor(Color.WHITE);
                                     Log.e("Clicked List",clicked.toString());
                                     Log.e("IS contains",String.valueOf(clicked.contains(view.getId())));
-
                                 }
                             });
                         }
                         else if(!is_ack && is_alert && !clicked.contains(view.getId()))
                         {
-                            view.setBackgroundResource(R.drawable.btn_yellow);
+                            view.setBackgroundColor(Color.YELLOW);
                             myapi.setStationAck(view.getContext(),substation,view.getTag().toString());
                             clicked.add(view.getId());
                             Log.e("Clicked List",clicked.toString());
                             Log.e("IS contains",String.valueOf(clicked.contains(view.getId())));
-
-
                         }
                         else if(!is_ack && !is_alert && !clicked.contains(view.getId()))
                         {
@@ -166,7 +168,7 @@ public class activity_mr extends AppCompatActivity implements View.OnClickListen
                                 public void onItemClick(AdapterView<?> parent, View list_item_view, int position, long id) {
                                     myapi.setStationAlert(view.getContext(),"MR",substation,item,view.getTag().toString(),mListView.getItemAtPosition(position).toString());
                                     dialog.dismiss();
-                                    view.setBackgroundResource(R.drawable.btnstation_red);
+                                    view.setBackgroundColor(Color.RED);
                                     clicked.add(view.getId());
                                     Log.e("Clicked List",clicked.toString());
                                     Log.e("IS contains",String.valueOf(clicked.contains(view.getId())));

@@ -16,18 +16,7 @@
         tools:context=".MainActivity"
         tools:visibility="visible">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/maintoolbar"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@color/purple"
-            android:minHeight="80dp"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:navigationIcon="@android:drawable/alert_light_frame" />
-
+        <include layout="@layout/appbar"/>
         <Button
             android:id="@+id/btn_FFN"
             style="@style/button_station"
@@ -36,7 +25,8 @@
             app:layout_constraintEnd_toStartOf="@+id/btn_FFFN"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/maintoolbar" />
+            app:layout_constraintTop_toBottomOf="@+id/maintoolbar"
+            app:layout_constraintVertical_bias="0.32" />
 
         <Button
             android:id="@+id/btn_FFFN"
@@ -234,6 +224,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_veiw"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"

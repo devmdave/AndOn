@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/appbar"
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:background="@color/purple">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="WELDSHOP"
-        android:padding="4dp"
-        android:textSize="34sp"
-        android:textColor="@color/white"
-        android:layout_gravity="center_vertical"
-        android:textAlignment="center"
-        android:fontFamily="sans-serif-medium"
-        tools:ignore="RtlCompat" />
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
+    android:id="@+id/maintoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/purple"
+    android:minHeight="80dp"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:navigationIcon="@android:drawable/alert_light_frame">
 
 </androidx.appcompat.widget.Toolbar>

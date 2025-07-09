@@ -8,4 +8,151 @@
     android:background="@color/white"
     tools:context=".activity_MCE">
 
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="418dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple"
+            android:fontFamily="serif"
+            android:text="MCE Hood"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+
+    <Button
+        android:id="@+id/MCE10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="MCE # 10"
+        app:layout_constraintBottom_toTopOf="@+id/MCE40"
+        app:layout_constraintEnd_toStartOf="@+id/MCE20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="MCE # 20"
+        app:layout_constraintBottom_toTopOf="@+id/MCE50"
+        app:layout_constraintEnd_toStartOf="@+id/MCE30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/MCE10"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/MCE30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="MCE # 30"
+        app:layout_constraintBottom_toTopOf="@+id/MCE60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/MCE20"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCE # 40"
+        app:layout_constraintBottom_toTopOf="@+id/MCE70"
+        app:layout_constraintEnd_toStartOf="@+id/MCE50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MCE10"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCE # 50"
+        app:layout_constraintBottom_toTopOf="@+id/MCE80"
+        app:layout_constraintEnd_toStartOf="@+id/MCE60"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/MCE40"
+        app:layout_constraintTop_toBottomOf="@+id/MCE20"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCE # 60"
+        app:layout_constraintBottom_toTopOf="@+id/MCE90"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MCE50"
+        app:layout_constraintTop_toBottomOf="@+id/MCE30"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="MCE # 70"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MCE80"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MCE40"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="MCE # 80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MCE90"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/MCE70"
+        app:layout_constraintTop_toBottomOf="@+id/MCE50" />
+
+    <Button
+        android:id="@+id/MCE90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="MCE # 90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/MCE80"
+        app:layout_constraintTop_toBottomOf="@+id/MCE60"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/MCE100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="225dp"
+        android:text="MCE # 100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

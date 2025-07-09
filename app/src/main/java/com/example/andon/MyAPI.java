@@ -22,15 +22,81 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MyAPI extends MainActivity {
-    private final String base_url = "https://script.google.com/macros/s/AKfycbwWPNAk3Vnq97hFbV3YNFXewr2Kh-DrurzqyAgRoeKtEsYU3CEA2-m1Moyw_STeQQiY/exec?";
+    private final String base_url = "https://script.google.com/macros/s/AKfycbyGt8grQqsnD9DFgAF2JQYOHVWbb-CSFlp1byzgg_sGvMYn1SrGIBUIo221bSbJQzo/exec?";
     public JSONObject data;
+    public String[] breakdowns;
     private AlertPopup ap = new AlertPopup();
-
     private final User u = new User();
     public JSONArray station_alerts;
     public JSONArray station_ack;
     public JSONArray station_ok;
     public String[] alert_equipments;
+
+    public void SetBreakdown(Context con,String eqid,String brk)
+    {
+        RequestQueue queue;
+        String s = base_url+"action=SETBREAKDOWN&eqid=%s&breakdown=%s";
+        String URL = String.format(s,eqid,brk);
+        queue = Volley.newRequestQueue(con);
+        StringRequest request = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response){
+                try {
+                    Toast.makeText(con, "Breakdown set!", Toast.LENGTH_SHORT).show();
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.d("VOLLEY ERROR",error.toString());
+
+            }
+        });
+        queue.add(request);
+
+    }
+
+
+
+
+    public void getBreakdowns(Context con ,String eqid,Thread t)
+    {
+        RequestQueue queue;
+        String s = base_url+"action=GETBREAKDOWNS&eqid=%s";
+        String URL = String.format(s,eqid);
+        queue = Volley.newRequestQueue(con);
+        StringRequest request = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response){
+                try {
+                    Toast.makeText(con, "OK!", Toast.LENGTH_SHORT).show();
+                    Log.e("Original Response",response);
+                    JSONArray brk = new JSONArray(response);
+//                    brk.put(0,"New List");
+                    breakdowns = new String[(brk.length()+1)];
+                    breakdowns[0] = "New List";
+                    for(int i=1;i<=brk.length();i++)
+                    {
+                        breakdowns[i] = brk.getString(i-1);
+                    }
+                    t.start();
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.d("VOLLEY ERROR",error.toString());
+
+            }
+        });
+        queue.add(request);
+    }
+
+
     public void getData(Context con,Thread t)
     {
         RequestQueue queue;
@@ -44,8 +110,8 @@ public class MyAPI extends MainActivity {
                     //noinspection Since15
                     if(!response.isBlank())
                     {
-
                         data = new JSONObject(response);
+                        Toast.makeText(con, data.toString(), Toast.LENGTH_SHORT).show();
                         station_alerts = data.getJSONArray("ALERT");
                         station_ack = data.getJSONArray("ACK");
 //                        station_ok = data.getJSONArray("OK");
@@ -59,7 +125,6 @@ public class MyAPI extends MainActivity {
 //                    Toast.makeText(con, response.toString().trim(), Toast.LENGTH_SHORT).show();
                     ap.stopBuff(dg);
                     t.start();
-
                 } catch (Exception ignored) {
                     ap.stopBuff(dg);
                     t.start();
@@ -78,12 +143,16 @@ public class MyAPI extends MainActivity {
     public void setStationAlert(Context context,String mstation,String substation,String equipment,String eqid,String breakdown)
     {
         RequestQueue queue;
-        String s = base_url+"action=SETALERT&mstation=%s&substation=%s&equipment=%s&eqid=%s&user="+u.getUserName(context)+"&breakdown="+breakdown;
-        String URL = String.format(s, mstation,substation,equipment,eqid);
+        String s = base_url+"action=SETALERT&mstation=%s&substation=%s&eqid=%s&equipment=%s&user=%s&breakdown=%s";
+//        String s = "http://10.0.2.2:3000/SETALERT?station=%s&equip_id=%s&username=%s";
+//        String URL = String.format(s,eqid,"Madhav");
+        String URL = String.format(s, mstation,substation,eqid,equipment.replaceAll("#","").replaceAll("/",""),u.getUserID(context),breakdown).replaceAll(" ","");
+        Log.e("URL formed",URL);
         queue = Volley.newRequestQueue(context);
         Dialog dg = ap.showBuffering(context);
         StringRequest request = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
             @Override
+
             public void onResponse(String response){
                 try {
                     Toast.makeText(context, "booked", Toast.LENGTH_SHORT).show();
@@ -105,7 +174,7 @@ public class MyAPI extends MainActivity {
     public void setStationAck(Context context,String station,String eqid)
     {
         RequestQueue queue;
-        String s = base_url+"action=SETACK&station=%s&eqid=%s&user="+u.getUserName(context);
+        String s = base_url+"action=SETACK&station=%s&eqid=%s&user="+u.getUserID(context);
         String URL = String.format(s, station,eqid);
         Dialog dg = ap.showBuffering(context);
 
@@ -135,7 +204,7 @@ public class MyAPI extends MainActivity {
     public void setStationOK(Context context,String station,String eqid,String ica)
     {
         RequestQueue queue;
-        String s = base_url+"action=SETOK&station=%s&eqid=%s&user="+u.getUserName(context)+"&ica="+ica;
+        String s = base_url+"action=SETOK&station=%s&eqid=%s&user="+u.getUserID(context)+"&ica="+ica;
         String URL = String.format(s, station,eqid);
         Dialog dg = ap.showBuffering(context);
         queue = Volley.newRequestQueue(context);

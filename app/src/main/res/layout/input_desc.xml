@@ -7,17 +7,17 @@
     android:layout_gravity="center">
 
     <TextView
+        android:id="@+id/input_desc_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@color/purple"
         android:padding="20sp"
-        android:textStyle="bold"
         android:text="Immediate Action Taken"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:background="@color/purple"
-        />
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/txt_ica"

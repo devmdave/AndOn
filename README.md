@@ -32,13 +32,15 @@ View the full list of past issues, including status (raised, acknowledged, resol
 1. Operator reports a broken welding gun at Station A.
 
 
-2. Supervisor acknowledges the problem from the app.
+2. Engineer acknowledges the problem from the app.
 
 
-3. Technician resolves the issue and logs "Replaced welding torch head – tested OK".
+3. Engineer/Technician resolves the issue and logs "Replaced welding torch head – tested OK".
 
 
-4. System marks the problem as resolved and stores the complete history.
+4. System marks the problem as resolved and stores the action taken.
+
+
 
 
 
@@ -57,6 +59,8 @@ UI: Material Design components
 
 
 
+
+
 🚀 Getting Started
 
 Prerequisites
@@ -66,6 +70,9 @@ Android Studio (latest stable version)
 Java 8+
 
 Android SDK
+
+
+
 
 
 Installation
@@ -81,11 +88,15 @@ git clone https://github.com/your-org/andon-weldshop-android.git
 
 
 
+
+
 🔐 Permissions
 
 To function properly, the app may request:
 
 Internet (for syncing if using online backend)
+
+
 
 
 
